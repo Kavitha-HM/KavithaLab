@@ -60,8 +60,8 @@ const pageState = {
 };
 
 function dataUrl(fileName) {
-  const basePath = window.location.pathname.replace(/\/[^/]*$/, '') || '/';
-  return `${basePath}/data/${fileName}`;
+  const base = import.meta.env.BASE_URL || '/';
+  return new URL(`data/${fileName}`, `${window.location.origin}${base}`).href;
 }
 
 function textValue(value, key) {

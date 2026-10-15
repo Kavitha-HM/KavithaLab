@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "title_en": "Machine Learning and High-Dimensional Data Analysis",
+    "title_ja": "高次元データ解析と機械学習",
+    "description_en": "This research direction studies robust machine learning methods and data-driven reasoning for complex, high-dimensional data and intelligent information retrieval.",
+    "description_ja": "高次元かつ複雑なデータに対するロバストな機械学習手法とデータ駆動型の推論を研究し、知的情報検索と解析を進めます。",
+    "keywords": ["Machine Learning", "Data Analysis", "High-dimensional Data"],
+    "image": "/images/research-01.svg",
+    "members": ["Muthu Subash Kavitha"],
+    "publications": ["Artificial Intelligence for Road Anomaly Detection: A Review"]
+  },
+  {
+    "id": 2,
+    "title_en": "Object Recognition and Computer Vision",
+    "title_ja": "物体認識とコンピュータビジョン",
+    "description_en": "This research stream develops computer vision systems for object detection, recognition, and scene understanding in real-world conditions.",
+    "description_ja": "実世界の条件下で対象の検出、認識、シーン理解を行うためのコンピュータビジョン技術を研究します。",
+    "keywords": ["Computer Vision", "Object Recognition", "Scene Understanding"],
+    "image": "/images/research-02.svg",
+    "members": ["Muthu Subash Kavitha"],
+    "publications": ["PATROL’S PAL: Anomaly Face Recognition from Low-Quality CCTV Footage"]
+  },
+  {
+    "id": 3,
+    "title_en": "Deep Learning for Anomaly Detection",
+    "title_ja": "異常検知のための深層学習",
+    "description_en": "This project investigates anomaly detection with deep learning to identify rare patterns, failures, or abnormalities in complex signals and images.",
+    "description_ja": "複雑な信号や画像における稀なパターンや異常を検出するための深層学習を研究しています。",
+    "keywords": ["Deep Learning", "Anomaly Detection", "Signal Analysis"],
+    "image": "/images/research-03.svg",
+    "members": ["Muthu Subash Kavitha"],
+    "publications": ["Advanced attention-enhanced model for precise polyp detection in colorectal cancer screening"]
+  },
+  {
+    "id": 4,
+    "title_en": "Pattern Recognition for Medical and Intelligent Systems",
+    "title_ja": "医療・知的システムのためのパターン認識",
+    "description_en": "The laboratory develops pattern recognition and image-analysis methods for medical diagnosis, intelligent sensing, and applied AI systems.",
+    "description_ja": "医療診断、知的センシング、応用AIシステムに向けて、パターン認識と画像解析の手法を開発しています。",
+    "keywords": ["Pattern Recognition", "Medical Imaging", "AI Systems"],
+    "image": "/images/research-04.svg",
+    "members": ["Muthu Subash Kavitha"],
+    "publications": ["Hierarchical graph-guided contextual representation learning for Neurodegenerative pattern recognition in MRI"]
+  },
+  {
+    "id": 5,
+    "title_en": "AI for Medical and Environmental Intelligence",
+    "title_ja": "医療と環境知能のためのAI",
+    "description_en": "This theme explores AI and computational methods for environmental monitoring, medical imaging, and sustainable decision support systems.",
+    "description_ja": "環境モニタリング、医療画像、持続可能な意思決定支援に向けたAIと計算手法を研究しています。",
+    "keywords": ["AI", "Medical Imaging", "Environmental Monitoring"],
+    "image": "/images/research-05.svg",
+    "members": ["Muthu Subash Kavitha"],
+    "publications": ["Artificial Intelligence Methods in Marine Biotechnology"]
+  }
+]
