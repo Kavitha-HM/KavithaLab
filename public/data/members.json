@@ -9,7 +9,7 @@
       "position_ja": "助教 / 研究責任者",
       "research_topic_en": "Artificial Intelligence, Deep Learning, and Medical Image Analysis",
       "research_topic_ja": "人工知能、深層学習、医療画像解析",
-      "photo": "/images/professor-photo.svg",
+      "photo": "/images/professor-photo.jpg",
       "bio_en": "Professor Kavitha leads the laboratory in AI-driven image analysis, pattern recognition, and intelligent systems research for healthcare and real-world applications.",
       "bio_ja": "カビタ教授は、医療や実世界応用を対象としたAI駆動の画像解析、パターン認識、知的システム研究を牽引しています。",
       "email": "placeholder@mlab.nagasaki-u.ac.jp",
@@ -24,7 +24,7 @@
       "position_ja": "研究員",
       "research_topic_en": "Computer Vision for Environmental Monitoring",
       "research_topic_ja": "環境モニタリングのためのコンピュータビジョン",
-      "photo": "/images/member-01.svg",
+      "photo": "/images/member-01.jpg",
       "bio_en": "Researcher focuses on visual sensing and environmental data analysis for intelligent monitoring systems.",
       "bio_ja": "視覚センシングと環境データ解析に取り組み、知的モニタリングシステムの研究を進めています。",
       "email": "placeholder1@example.edu"
@@ -38,7 +38,7 @@
       "position_ja": "ポスドク研究員",
       "research_topic_en": "Machine Learning for Scientific Discovery",
       "research_topic_ja": "科学的発見のための機械学習",
-      "photo": "/images/member-02.svg",
+      "photo": "/images/member-02.jpg",
       "bio_en": "Postdoctoral researcher develops robust machine learning methods for data analysis and model interpretation.",
       "bio_ja": "ポスドク研究員として、データ分析とモデル解釈のための堅牢な機械学習手法を開発しています。",
       "email": "placeholder2@example.edu"
@@ -52,7 +52,7 @@
       "position_ja": "博士課程学生",
       "research_topic_en": "Data Science for Urban Systems",
       "research_topic_ja": "都市システムのためのデータサイエンス",
-      "photo": "/images/member-03.svg",
+      "photo": "/images/member-03.jpg",
       "bio_en": "PhD student investigates spatio-temporal modeling for urban and environmental systems.",
       "bio_ja": "博士課程学生として、都市と環境システムの時空間モデリングを研究しています。",
       "email": "placeholder3@example.edu"
@@ -66,7 +66,7 @@
       "position_ja": "修士学生",
       "research_topic_en": "Signal Processing and Pattern Recognition",
       "research_topic_ja": "信号処理とパターン認識",
-      "photo": "/images/member-04.svg",
+      "photo": "/images/member-04.jpg",
       "bio_en": "Master's student studies pattern recognition methods for structured time-series data.",
       "bio_ja": "修士学生として、構造化時系列データのためのパターン認識手法を研究しています。",
       "email": "placeholder4@example.edu"
@@ -80,7 +80,7 @@
       "position_ja": "学部研究補助員",
       "research_topic_en": "Data Visualization and Scientific Communication",
       "research_topic_ja": "データ可視化と科学コミュニケーション",
-      "photo": "/images/member-05.svg",
+      "photo": "/images/member-05.jpg",
       "bio_en": "Undergraduate researcher supports visualization and project documentation for laboratory activities.",
       "bio_ja": "学部研究補助員として、研究室の可視化とプロジェクト資料の整理を支援しています。"
     },
@@ -93,7 +93,7 @@
       "position_ja": "元研究学生",
       "research_topic_en": "AI for Social Good",
       "research_topic_ja": "社会貢献のためのAI",
-      "photo": "/images/member-01.svg",
+      "photo": "/images/member-01.jpg",
       "bio_en": "Former lab member now contributes to industry and academic collaboration in applied AI and data systems.",
       "bio_ja": "元メンバーとして、産業界と学術連携の場でAIとデータシステムの応用に貢献しています。"
     }
