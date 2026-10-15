@@ -21,7 +21,7 @@
   "name_ja": "カビタ ムトウ スバッュ",
   "position_en": "Assistant Professor / Principal Investigator",
   "position_ja": "助教 / 研究責任者",
-  "photo": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=900&q=80",
+  "photo": "/images/professor-photo.svg",
   "biography_en": "Muthu Subash Kavitha is a faculty member at Nagasaki University whose work spans artificial intelligence, deep learning, computer vision, and medical image analysis. Her research develops intelligent systems for diagnosis, anomaly detection, and perception in complex data environments.",
   "biography_ja": "カビタ ムトウ スバッュは長崎大学に所属し、人工知能、深層学習、コンピュータビジョン、医療画像解析に関する研究に取り組んでいます。診断支援、異常検知、複雑なデータ環境における知覚のための知的システム開発を行っています。",
   "education_en": [
@@ -79,5 +79,5 @@
     "phone": "+81-95-000-0000",
     "maps_url": "https://maps.google.com/?q=Nagasaki%20University"
   },
-  "lab_image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80"
+  "lab_image": "/images/lab-hero.svg"
 }

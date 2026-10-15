@@ -91,15 +91,16 @@ function currentLangLabel() {
 }
 
 async function fetchData() {
-  const [professor, members, research, publications, news] = await Promise.all([
+  const [professor, members, research, publications, news, siteConfig] = await Promise.all([
     fetch(dataUrl('professor.json')).then((res) => res.json()),
     fetch(dataUrl('members.json')).then((res) => res.json()),
     fetch(dataUrl('research.json')).then((res) => res.json()),
     fetch(dataUrl('publications.json')).then((res) => res.json()),
-    fetch(dataUrl('news.json')).then((res) => res.json())
+    fetch(dataUrl('news.json')).then((res) => res.json()),
+    fetch(dataUrl('site-config.json')).then((res) => res.json())
   ]);
 
-  return { professor, members, research, publications, news };
+  return { professor, members, research, publications, news, siteConfig };
 }
 
 function setLanguage(lang) {
@@ -123,19 +124,20 @@ function setLanguage(lang) {
 function updateBrand(data) {
   const brandName = document.getElementById('brand-name');
   const brandLab = document.getElementById('brand-lab');
+  const siteConfig = data.siteConfig || {};
   if (brandName) {
     brandName.textContent = getLocaleText(data.professor, 'name');
   }
   if (brandLab) {
-    brandLab.textContent = pageState.lang === 'ja' ? '研究室' : 'Research Laboratory';
+    brandLab.textContent = siteConfig.siteTagline || (pageState.lang === 'ja' ? '研究室' : 'Research Laboratory');
   }
 }
 
 function renderHome() {
-  fetchData().then(({ professor, members, research, publications, news }) => {
+  fetchData().then(({ professor, members, research, publications, news, siteConfig }) => {
     const data = professor;
 
-    updateBrand({ professor: data });
+    updateBrand({ professor: data, siteConfig: siteConfig || {} });
 
     const heroTitle = document.getElementById('hero-title');
     const heroUniversity = document.getElementById('hero-university');
