@@ -1,0 +1,48 @@
+{
+  "news": [
+    {
+      "date": "2025-05-29",
+      "category": "Event",
+      "category_ja": "イベント",
+      "title_en": "AI and Deep Learning in Medical Image Analysis",
+      "title_ja": "医療画像解析におけるAIと深層学習",
+      "image": "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=1200&q=80",
+      "summary_en": "Muthu Subash Kavitha delivered a keynote on AI and deep learning in medical image analysis at the 1st NUNU miniFORUM 2025.",
+      "summary_ja": "カビタ ムトウ スバッュは第1回NUNU miniFORUM 2025において、医療画像解析におけるAIと深層学習について講演しました。",
+      "link": "https://researchmap.jp/Kavitha/presentations/51395759"
+    },
+    {
+      "date": "2024-11-14",
+      "category": "Academic Contribution",
+      "category_ja": "学術貢献",
+      "title_en": "Advisory committee role at ICRTAC 2024",
+      "title_ja": "ICRTAC 2024のアドバイザリー委員として参加",
+      "image": "https://images.unsplash.com/photo-1516321165247-4aa89a48be28?auto=format&fit=crop&w=1200&q=80",
+      "summary_en": "The research group contributed to the organization and advisory activities of the International Conference on Recent Trends in Advanced Computing.",
+      "summary_ja": "本研究グループは、国際会議ICRTAC 2024の運営とアドバイザリー活動に貢献しました。",
+      "link": "https://researchmap.jp/Kavitha/academic_contribution/48270816"
+    },
+    {
+      "date": "2024-04-01",
+      "category": "Research",
+      "category_ja": "研究",
+      "title_en": "Research collaboration at Nagasaki University continues in AI and medical data science",
+      "title_ja": "長崎大学におけるAIと医療データサイエンスの研究協働が継続",
+      "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80",
+      "summary_en": "The laboratory continues work on AI-driven medical and industrial big data research at Nagasaki University.",
+      "summary_ja": "長崎大学において、AIを活用した医療・産業大規模データ研究が継続されています。",
+      "link": "https://researchmap.jp/Kavitha/research_projects/36860801"
+    },
+    {
+      "date": "2023-05-30",
+      "category": "Publication",
+      "category_ja": "論文",
+      "title_en": "Artificial Intelligence Methods in Marine Biotechnology",
+      "title_ja": "海洋バイオテクノロジーにおける人工知能の応用",
+      "image": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80",
+      "summary_en": "A book chapter on AI methods in marine biotechnology was published, emphasizing intelligent analysis and computational techniques.",
+      "summary_ja": "海洋バイオテクノロジーにおけるAI手法に関する書籍章が発表されました。",
+      "link": "https://researchmap.jp/Kavitha/published_papers/42623665"
+    }
+  ]
+}

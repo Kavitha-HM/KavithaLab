@@ -1,0 +1,54 @@
+{
+  "publications": [
+    {
+      "year": 2026,
+      "type": "Conference",
+      "title_en": "iReasoner: Trajectory-Aware Intrinsic Reasoning Supervision for Self-Evolving Large Multimodal Models",
+      "title_ja": "iReasoner: 自己進化する大規模マルチモーダルモデルのための軌跡認識型内因的推論監督",
+      "authors": "Meghana Sunil, Venmathimaran Manikandarajan, Muthu Subash Kavitha",
+      "venue": "ACL 2026",
+      "doi": "N/A",
+      "pdf": "#"
+    },
+    {
+      "year": 2026,
+      "type": "Conference",
+      "title_en": "TIDE: Two-Stage Inverse Degradation Estimation with Guided Prior Disentanglement for Underwater Image Restoration",
+      "title_ja": "TIDE: 水中画像復元のための誘導事前分離を用いた二段階逆劣化推定",
+      "authors": "Shravan Venkatraman, Rakesh Raj Madavan, Pavan Kumar S., Muthu Subash Kavitha",
+      "venue": "CVPR Workshop 2026",
+      "doi": "N/A",
+      "pdf": "#"
+    },
+    {
+      "year": 2026,
+      "type": "Conference",
+      "title_en": "Can We Go Beyond Visual Features? Neural Tissue Relation Modeling for Relational Graph Analysis in Non-Melanoma Skin Histology",
+      "title_ja": "視覚特徴を超えられるか？非黒色腫皮膚組織学における関係グラフ解析のためのニューラル組織関係モデリング",
+      "authors": "Shravan Venkatraman, Muthu Subash Kavitha, Joe Dhanith P R., V Manikandarajan, Jia Wu",
+      "venue": "CVPR PHAROS 2026",
+      "doi": "N/A",
+      "pdf": "#"
+    },
+    {
+      "year": 2025,
+      "type": "Journal",
+      "title_en": "Artificial Intelligence for Road Anomaly Detection: A Review",
+      "title_ja": "道路異常検出のための人工知能：レビュー",
+      "authors": "Rohit Samanta, Amutha Sadasivan, Muthu Subash Kavitha, Surendiran Balasubramanian",
+      "venue": "WIREs Data Mining and Knowledge Discovery",
+      "doi": "N/A",
+      "pdf": "#"
+    },
+    {
+      "year": 2025,
+      "type": "Journal",
+      "title_en": "Hierarchical graph-guided contextual representation learning for Neurodegenerative pattern recognition in MRI",
+      "title_ja": "MRIにおける神経変性パターン認識のための階層的グラフ誘導コンテキスト表現学習",
+      "authors": "Shravan Venkatraman, Joe Dhanith P.R., Muthu Subash Kavitha",
+      "venue": "Computers in Biology and Medicine",
+      "doi": "N/A",
+      "pdf": "#"
+    }
+  ]
+}

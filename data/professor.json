@@ -1,0 +1,83 @@
+{
+  "lab_name_en": "Kavitha Laboratory",
+  "lab_name_ja": "カビタ研究室",
+  "short_name_en": "Kavitha Lab",
+  "short_name_ja": "カビタラボ",
+  "university_en": "Nagasaki University",
+  "university_ja": "長崎大学",
+  "department_en": "School of Information and Data Sciences",
+  "department_ja": "情報データ科学部",
+  "faculty_en": "School of Information and Data Sciences",
+  "faculty_ja": "情報データ科学部",
+  "hero_description_en": "Research in artificial intelligence, deep learning, image processing, computer vision, pattern recognition, and computer-aided diagnosis.",
+  "hero_description_ja": "人工知能、深層学習、画像処理、コンピュータビジョン、パターン認識、コンピュータ支援診断に関する研究を推進します。",
+  "about_heading_en": "Advancing AI-driven image analysis and intelligent systems for medical and real-world applications.",
+  "about_heading_ja": "医療・実世界応用に向けたAI駆動の画像解析と知的システムを推進します。",
+  "about_intro_en": "Muthu Subash Kavitha studies machine learning, image analysis, and computer-aided diagnosis to build intelligent systems that support healthcare, perception, and data-driven decision-making.",
+  "about_intro_ja": "カビタ・ムトゥ・スバッュは、機械学習、画像解析、コンピュータ支援診断に関する研究により、医療、知覚、データ駆動型意思決定を支える知的システムの開発を進めています。",
+  "research_focus_en": "The laboratory focuses on AI, deep learning, image processing, object recognition, anomaly detection, and pattern recognition for medical and intelligent applications.",
+  "research_focus_ja": "本研究室では、医療・知的応用に向けたAI、深層学習、画像処理、物体認識、異常検知、パターン認識を研究しています。",
+  "name_en": "Muthu Subash Kavitha",
+  "name_ja": "カビタ ムトウ スバッュ",
+  "position_en": "Assistant Professor / Principal Investigator",
+  "position_ja": "助教 / 研究責任者",
+  "photo": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=900&q=80",
+  "biography_en": "Muthu Subash Kavitha is a faculty member at Nagasaki University whose work spans artificial intelligence, deep learning, computer vision, and medical image analysis. Her research develops intelligent systems for diagnosis, anomaly detection, and perception in complex data environments.",
+  "biography_ja": "カビタ ムトウ スバッュは長崎大学に所属し、人工知能、深層学習、コンピュータビジョン、医療画像解析に関する研究に取り組んでいます。診断支援、異常検知、複雑なデータ環境における知覚のための知的システム開発を行っています。",
+  "education_en": [
+    "Ph.D. in Information Engineering, Hiroshima University, Japan",
+    "Research training in pattern recognition and machine learning",
+    "International research appointments in medical imaging and AI"
+  ],
+  "education_ja": [
+    "広島大学大学院工学研究科 情報工学専攻 博士課程修了",
+    "パターン認識と機械学習に関する研究訓練",
+    "医療画像解析とAIに関する国際研究経験"
+  ],
+  "career_en": [
+    "Assistant Professor, School of Information and Data Sciences, Nagasaki University, Japan",
+    "Specially Appointed Assistant Professor, Graduate School of Advanced Science and Engineering, Hiroshima University, Japan",
+    "Researcher, Pattern Recognition and Machine Learning, Hiroshima University, Japan",
+    "JSPS International Research Fellow, Hiroshima University, Japan",
+    "Research Professor, Kyungpook National University, Korea"
+  ],
+  "career_ja": [
+    "長崎大学情報データ科学部 助教",
+    "広島大学大学院先端科学技術研究科 特命助教",
+    "広島大学 パターン認識・機械学習研究室 研究員",
+    "広島大学 JSPS国際研究者",
+    "慶北大学校 研究教授"
+  ],
+  "interests_en": [
+    "Artificial Intelligence",
+    "Deep Learning",
+    "Image Processing",
+    "Computer Vision",
+    "Pattern Recognition",
+    "Medical Image Analysis",
+    "Anomaly Detection"
+  ],
+  "interests_ja": [
+    "人工知能",
+    "深層学習",
+    "画像処理",
+    "コンピュータビジョン",
+    "パターン認識",
+    "医療画像解析",
+    "異常検知"
+  ],
+  "profiles": {
+    "scholar": "https://scholar.google.com",
+    "orcid": "https://orcid.org/0000-0002-1676-561X",
+    "researchmap": "https://researchmap.jp/Kavitha",
+    "university_profile": "https://www.nagasaki-u.ac.jp/en/"
+  },
+  "contact": {
+    "address_en": "School of Information and Data Sciences, Nagasaki University, Nagasaki, Japan",
+    "address_ja": "長崎県長崎市文教町1-14 長崎大学情報データ科学部",
+    "email": "placeholder@mlab.nagasaki-u.ac.jp",
+    "phone": "+81-95-000-0000",
+    "maps_url": "https://maps.google.com/?q=Nagasaki%20University"
+  },
+  "lab_image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80"
+}

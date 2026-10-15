@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Academic laboratory website for a university professor and research group."
+    />
+    <title>Kavitha Laboratory | Nagasaki University</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body data-page="home">
+    <header class="site-header">
+      <div class="container nav">
+        <a href="index.html" class="brand" aria-label="Home">
+          <span class="brand-mark">U</span>
+          <span class="brand-text">
+            <strong id="brand-name">Muthu Subash Kavitha</strong>
+            <small id="brand-lab">Research Laboratory</small>
+          </span>
+        </a>
+
+        <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="index.html#about">About</a>
+          <a href="research.html">Research</a>
+          <a href="members.html">Members</a>
+          <a href="publications.html">Publications</a>
+          <a href="news.html">News</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="lang-switcher" aria-label="Language switcher">
+          <button type="button" class="lang-btn active" data-lang="en">English</button>
+          <span class="lang-divider">|</span>
+          <button type="button" class="lang-btn" data-lang="ja">日本語</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero hero-academic">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow" id="hero-tag">Research Laboratory</p>
+            <h1 id="hero-title">Kavitha Laboratory</h1>
+            <div class="hero-meta">
+              <span id="hero-university">Nagasaki University</span>
+              <span class="dot"></span>
+              <span id="hero-department">School of Information and Data Sciences</span>
+            </div>
+            <p class="lede" id="hero-description">
+              Research in artificial intelligence, deep learning, image processing, computer vision, and medical image analysis.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="research.html">Explore Research</a>
+              <a class="button secondary" href="publications.html">Publications</a>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <img
+              id="hero-image"
+              src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80"
+              alt="Research laboratory"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-heading narrow">
+            <p class="section-tag">About the Laboratory</p>
+            <h2 id="about-heading">Advancing AI-driven image analysis and intelligent systems for medical and real-world applications.</h2>
+          </div>
+
+          <div class="about-layout">
+            <div class="panel intro-panel">
+              <p id="lab-intro">
+                Muthu Subash Kavitha studies machine learning, image analysis, and computer-aided diagnosis to build intelligent systems that support healthcare, perception, and data-driven decision-making.
+              </p>
+            </div>
+            <div class="panel stats-panel">
+              <div class="stat-item">
+                <strong>3-6</strong>
+                <span>Research Areas</span>
+              </div>
+              <div class="stat-item">
+                <strong>5+</strong>
+                <span>Research Members</span>
+              </div>
+              <div class="stat-item">
+                <strong>Publications</strong>
+                <span>Journal & Conference</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section accent-panel">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-tag">Research Areas</p>
+            <h2>Research themes and interdisciplinary directions.</h2>
+          </div>
+          <div id="research-areas" class="research-grid"></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-tag">Professor Profile</p>
+            <h2>Academic leadership and research direction.</h2>
+          </div>
+          <div id="professor-card" class="professor-card"></div>
+        </div>
+      </section>
+
+      <section class="section accent-panel">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-tag">Featured Research</p>
+            <h2>Current research activities and themes.</h2>
+          </div>
+          <div id="featured-research" class="project-grid"></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-heading split-heading">
+            <div>
+              <p class="section-tag">Latest Publications</p>
+              <h2>Recent academic outputs.</h2>
+            </div>
+            <a class="inline-link" href="publications.html">View all publications</a>
+          </div>
+          <div id="publication-list" class="publication-list compact"></div>
+        </div>
+      </section>
+
+      <section class="section accent-panel">
+        <div class="container">
+          <div class="section-heading split-heading">
+            <div>
+              <p class="section-tag">Latest News</p>
+              <h2>Laboratory updates and announcements.</h2>
+            </div>
+            <a class="inline-link" href="news.html">View all news</a>
+          </div>
+          <div id="news-list" class="news-grid compact"></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-heading split-heading">
+            <div>
+              <p class="section-tag">Laboratory Members</p>
+              <h2>Researchers and students contributing to the lab.</h2>
+            </div>
+            <a class="inline-link" href="members.html">View all members</a>
+          </div>
+          <div id="member-preview" class="member-grid compact"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <p class="section-tag">Contact</p>
+          <h2 id="footer-title">Kavitha Laboratory</h2>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:placeholder@mlab.nagasaki-u.ac.jp">placeholder@mlab.nagasaki-u.ac.jp</a>
+          <a href="contact.html">University contact</a>
+          <a href="https://maps.google.com/?q=Nagasaki%20University" target="_blank" rel="noreferrer">Google Maps</a>
+        </div>
+      </div>
+      <div class="container bottom-bar">
+        <p>© <span id="year"></span> Nagasaki University. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
