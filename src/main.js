@@ -64,6 +64,13 @@ function dataUrl(fileName) {
   return new URL(`data/${fileName}`, `${window.location.origin}${base}`).href;
 }
 
+function imageUrl(path) {
+  if (!path) return '';
+  if (/^(?:[a-z][a-z\d+.-]*:|\/\/)/i.test(path)) return path;
+  const base = import.meta.env.BASE_URL || '/';
+  return `${base}${path.replace(/^\/+/, '')}`;
+}
+
 function textValue(value, key) {
   if (!value) return '';
   if (typeof value === 'string') return value;
@@ -151,7 +158,7 @@ function renderHome() {
     if (heroDepartment) heroDepartment.textContent = getLocaleText(data, 'department');
     if (heroDescription) heroDescription.textContent = getLocaleText(data, 'hero_description');
     if (heroTag) heroTag.textContent = pageState.lang === 'ja' ? '研究室' : 'Research Laboratory';
-    if (heroImage) heroImage.src = data.lab_image;
+    if (heroImage) heroImage.src = imageUrl(data.lab_image);
 
     const aboutHeading = document.getElementById('about-heading');
     if (aboutHeading) aboutHeading.textContent = getLocaleText(data, 'about_heading');
@@ -164,7 +171,7 @@ function renderHome() {
       const items = research.slice(0, 5);
       researchAreas.innerHTML = items.map((item) => `
         <article class="research-card">
-          <img src="${item.image}" alt="${getLocaleText(item, 'title')}" />
+          <img src="${imageUrl(item.image)}" alt="${getLocaleText(item, 'title')}" />
           <div class="research-body">
             <h3>${getLocaleText(item, 'title')}</h3>
             <p>${getLocaleText(item, 'description')}</p>
@@ -183,7 +190,7 @@ function renderHome() {
       const japaneseName = data.name_ja || 'Japanese name';
       professorCard.innerHTML = `
         <div class="profile-figure">
-          <img src="${data.photo}" alt="${getLocaleText(data, 'name')}" />
+          <img src="${imageUrl(data.photo)}" alt="${getLocaleText(data, 'name')}" />
         </div>
         <div class="profile-content">
           <div class="profile-header">
@@ -214,7 +221,7 @@ function renderHome() {
     if (featuredResearch) {
       featuredResearch.innerHTML = research.slice(0, 3).map((item) => `
         <article class="project-card">
-          <img src="${item.image}" alt="${getLocaleText(item, 'title')}" />
+          <img src="${imageUrl(item.image)}" alt="${getLocaleText(item, 'title')}" />
           <div class="project-body">
             <div class="project-badge">${pageState.lang === 'ja' ? '研究テーマ' : 'Research Theme'}</div>
             <h3>${getLocaleText(item, 'title')}</h3>
@@ -247,7 +254,7 @@ function renderHome() {
       const latestNews = news.news.slice(0, 3);
       newsList.innerHTML = latestNews.map((item) => `
         <article class="news-card">
-          <img src="${item.image}" alt="${getLocaleText(item, 'title')}" />
+          <img src="${imageUrl(item.image)}" alt="${getLocaleText(item, 'title')}" />
           <div class="news-body">
             <div class="news-meta">
               <span>${item.date}</span>
@@ -265,7 +272,7 @@ function renderHome() {
       const previewMembers = members.members.slice(0, 4);
       memberPreview.innerHTML = previewMembers.map((member) => `
         <article class="member-card preview-member" data-member-id="${member.id}">
-          <img src="${member.photo || ''}" alt="${getLocaleText(member, 'name')}" />
+          <img src="${imageUrl(member.photo)}" alt="${getLocaleText(member, 'name')}" />
           <div>
             <h3>${getLocaleText(member, 'name')}</h3>
             <p>${getLocaleText(member, 'position')}</p>
@@ -295,7 +302,7 @@ function renderResearchPage() {
       <div class="research-grid full-grid">
         ${research.map((item) => `
           <article class="research-card large-card">
-            <img src="${item.image}" alt="${getLocaleText(item, 'title')}" />
+            <img src="${imageUrl(item.image)}" alt="${getLocaleText(item, 'title')}" />
             <div class="research-body">
               <h3>${getLocaleText(item, 'title')}</h3>
               <p>${getLocaleText(item, 'description')}</p>
@@ -332,7 +339,7 @@ function renderMembersPage() {
           <div class="member-grid">
             ${items.map((member) => `
               <article class="member-card detail-trigger" data-member-id="${member.id}">
-                <img src="${member.photo}" alt="${getLocaleText(member, 'name')}" />
+                <img src="${imageUrl(member.photo)}" alt="${getLocaleText(member, 'name')}" />
                 <div class="member-body">
                   <h3>${getLocaleText(member, 'name')}</h3>
                   <p class="member-role">${getLocaleText(member, 'position')}</p>
@@ -454,7 +461,7 @@ function renderNewsPage() {
       <div class="news-grid full-news-grid">
         ${news.news.map((item) => `
           <article class="news-card full-card">
-            <img src="${item.image}" alt="${getLocaleText(item, 'title')}" />
+            <img src="${imageUrl(item.image)}" alt="${getLocaleText(item, 'title')}" />
             <div class="news-body">
               <div class="news-meta">
                 <span>${item.date}</span>
@@ -526,7 +533,7 @@ function setupMemberDetails() {
       const modalBox = document.getElementById('member-modal');
       const modalBody = modalBox.querySelector('.member-modal-body');
       modalBody.innerHTML = `
-        <img src="${match.photo || ''}" alt="${getLocaleText(match, 'name')}" />
+        <img src="${imageUrl(match.photo)}" alt="${getLocaleText(match, 'name')}" />
         <div>
           <p class="section-tag small-tag">${pageState.lang === 'ja' ? '研究室メンバー' : 'Laboratory Member'}</p>
           <h2>${getLocaleText(match, 'name')}</h2>
