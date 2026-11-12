@@ -327,7 +327,7 @@ function renderMembersPage() {
     const root = document.getElementById('page-content');
     if (!root) return;
 
-    const categories = ['Professor', 'Researchers', 'Postdoctoral Researchers', 'PhD Students', 'Master\'s Students', 'Undergraduate Students', 'Alumni'];
+    const categories = ['Professor','Undergraduate Students', 'PhD Students', 'Alumni'];
 
     const markup = categories.map((category) => {
       const items = members.members.filter((member) => member.category === category);
