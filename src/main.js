@@ -494,8 +494,6 @@ function renderContactPage() {
           <p>${getLocaleText(professor, 'university')} · ${getLocaleText(professor, 'department')}</p>
           <ul class="contact-list">
             <li><strong>${pageState.lang === 'ja' ? '住所' : 'Address'}:</strong> ${addressText}</li>
-            <li><strong>Email:</strong> <a href="mailto:${professor.contact.email}">${professor.contact.email}</a></li>
-            <li><strong>${pageState.lang === 'ja' ? '電話' : 'Phone'}:</strong> ${professor.contact.phone}</li>
             <li><strong>Google Maps:</strong> <a href="${professor.contact.maps_url}" target="_blank" rel="noreferrer">Open map</a></li>
           </ul>
         </div>
