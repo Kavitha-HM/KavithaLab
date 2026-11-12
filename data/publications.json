@@ -16,7 +16,7 @@
       "title_en": "TIDE: Two-Stage Inverse Degradation Estimation with Guided Prior Disentanglement for Underwater Image Restoration",
       "title_ja": "TIDE: 水中画像復元のための誘導事前分離を用いた二段階逆劣化推定",
       "authors": "Shravan Venkatraman, Rakesh Raj Madavan, Pavan Kumar S., Muthu Subash Kavitha",
-      "venue": "CVPR Workshop 2026",
+      "venue": "CVPR, New Trends in Image Restoration and Enhancement Workshop",
       "doi": "N/A",
       "pdf": "#"
     },
@@ -26,12 +26,42 @@
       "title_en": "Can We Go Beyond Visual Features? Neural Tissue Relation Modeling for Relational Graph Analysis in Non-Melanoma Skin Histology",
       "title_ja": "視覚特徴を超えられるか？非黒色腫皮膚組織学における関係グラフ解析のためのニューラル組織関係モデリング",
       "authors": "Shravan Venkatraman, Muthu Subash Kavitha, Joe Dhanith P R., V Manikandarajan, Jia Wu",
-      "venue": "CVPR PHAROS 2026",
+      "venue": "CVPR PHAROS AI Factory for Medical Imaging & Healthcare Workshop",
       "doi": "N/A",
       "pdf": "#"
     },
     {
-      "year": 2025,
+      "year": 2026,
+      "type": "Journal",
+      "title_en": "Advanced attention-enhanced model for precise polyp detection in colorectal cancer screening",
+      "title_ja": "大腸がんスクリーニングにおける正確なポリープ検出のための高度な注意機構強化モデル",
+      "authors": "P. R. Sriram, Muthu Subash Kavitha, S. P. Syed Ibrahim",
+      "venue": "Signal, Image and Video Processing",
+      "doi": "N/A",
+      "pdf": "#"
+    },
+    {
+      "year": 2026,
+      "type": "Journal",
+      "title_en": "1227 Quantitative Assessment of Disease Status in Chronic Lymphocytic Leukemia Using Artificial Intelligence (AI)-Assisted Peripheral Blood Smear Image Analysis",
+      "title_ja": "AI支援末梢血塗抹標本画像解析による慢性リンパ性白血病の病状定量評価",
+      "authors": "Jingchun Liu, Yun Gong, Xiaoping Sun, Amaris Shi, Xin Han, Jeffrey Liu, Pinfeng Huang, Kavitha Muthu Subash, Wei J. Wang, Eric (Hao Gang) Chen...",
+      "venue": "Laboratory Investigation",
+      "doi": "N/A",
+      "pdf": "#"
+    },
+    {
+      "year": 2026,
+      "type": "Journal",
+      "title_en": "Semantic and temporal-aware hybrid embedding for transformer-based sequential recommendation",
+      "title_ja": "Transformerベース逐次推薦のための意味的・時間的意識ハイブリッド埋め込み",
+      "authors": "Smriti Vipin Madangarli, G. Suganeshwari, S. P. Syed Ibrahim, Muthu Subash Kavitha, Norio Setozaki",
+      "venue": "Artificial Intelligence Review",
+      "doi": "N/A",
+      "pdf": "#"
+    },
+    {
+      "year": 2026,
       "type": "Journal",
       "title_en": "Artificial Intelligence for Road Anomaly Detection: A Review",
       "title_ja": "道路異常検出のための人工知能：レビュー",
@@ -47,6 +77,136 @@
       "title_ja": "MRIにおける神経変性パターン認識のための階層的グラフ誘導コンテキスト表現学習",
       "authors": "Shravan Venkatraman, Joe Dhanith P.R., Muthu Subash Kavitha",
       "venue": "Computers in Biology and Medicine",
+      "doi": "N/A",
+      "pdf": "#"
+    },
+    {
+      "year": 2025,
+      "type": "Conference",
+      "title_en": "Multi-domain Image Translation with Spatial and Channel Attention for MRI Modality Synthesis",
+      "title_ja": "MRIモダリティ合成のための空間・チャネル注意付きマルチドメイン画像変換",
+      "authors": "Perichiappan, Kavitha MS, Balaji",
+      "venue": "DECoN 2025",
+      "doi": "N/A",
+      "pdf": "#"
+    },
+    {
+      "year": 2025,
+      "type": "Journal",
+      "title_en": "Lightweight GANs in domain generalized medical image segmentation",
+      "title_ja": "領域一般化医用画像セグメンテーションにおける軽量GAN",
+      "authors": "Kishan Madhav AG, Avinash Venugopal, Muthu Subash Kavitha, Syed Ibrahim SP",
+      "venue": "Signal, Image and Video Processing",
+      "doi": "N/A",
+      "pdf": "#"
+    },
+    {
+      "year": 2025,
+      "type": "Conference",
+      "title_en": "PATROL’S PAL: Anomaly Face Recognition from Low-Quality CCTV Footage",
+      "title_ja": "PATROL'S PAL: 低品質CCTV映像からの異常顔認識",
+      "authors": "Vallidevi Krishnamurthy, R. M. Kaviya Sree, Muthu Subash Kavitha, Sonali Agarwal, Tripathi Gyanendra Nath",
+      "venue": "CVIP 2024, Springer Communications in Computer and Information Science",
+      "doi": "N/A",
+      "pdf": "#"
+    },
+    {
+      "year": 2025,
+      "type": "Journal",
+      "title_en": "Tea leaf disease detection using segment anything model and deep convolutional neural networks",
+      "title_ja": "Segment Anything Modelと深層畳み込みニューラルネットワークを用いた茶葉病害検出",
+      "authors": "Ananthakrishnan Balasundaram, Prem Sundaresan, Aryan Bhavsar, Mishti Mattu, Muthu Subash Kavitha, Ayesha Shaik",
+      "venue": "Results in Engineering",
+      "doi": "N/A",
+      "pdf": "#"
+    },
+    {
+      "year": 2024,
+      "type": "Conference",
+      "title_en": "Smart Expiry Tracker and Product Recommender using Google ML Kit OCR Engine",
+      "title_ja": "Google ML Kit OCR Engineを用いたスマート賞味期限トラッカーと商品推薦",
+      "authors": "Vallidevi Krishanamurthy, Aleena Bosco Kurumthottam, Shireen Aliza Ali, Paul Danny Anandan, Muthu Subash Kavitha, Karthikeyan K, Kumaresh V, Manikandan S",
+      "venue": "CINS 2024",
+      "doi": "N/A",
+      "pdf": "#"
+    },
+    {
+      "year": 2024,
+      "type": "Journal",
+      "title_en": "Population diversity control based differential evolution algorithm using fuzzy system for noisy multi-objective optimization problems",
+      "title_ja": "ノイズを含む多目的最適化問題に対するファジィシステムを用いた個体群多様性制御型差分進化法",
+      "authors": "Brindha Subburaj, J. Uma Maheswari, S. P. Syed Ibrahim, Muthu Subash Kavitha",
+      "venue": "Scientific Reports",
+      "doi": "N/A",
+      "pdf": "#"
+    },
+    {
+      "year": 2024,
+      "type": "Journal",
+      "title_en": "A fusion approach using GIS, green area detection, weather API and GPT for satellite image based fertile land discovery and crop suitability",
+      "title_ja": "GIS、緑地検出、天候API、GPTを用いた衛星画像ベースの肥沃な土地判定と作物適性評価",
+      "authors": "Ananthakrishnan Balasundaram, A. B. Abdul Aziz, Aman Gupta, Ayesha Shaik, Muthu Subash Kavitha",
+      "venue": "Scientific Reports",
+      "doi": "N/A",
+      "pdf": "#"
+    },
+    {
+      "year": 2024,
+      "type": "Journal",
+      "title_en": "An Improved Normalized Difference Vegetation Index (NDVI) Estimation Using Grounded Dino and Segment Anything Model for Plant Health Classification",
+      "title_ja": "Grounded DinoとSegment Anything Modelを用いた植物健康分類のためのNDVI推定改善",
+      "authors": "Ananthakrishnan Balasundaram, Alabhya Sharma, Swaathy Kumaravelan, Ayesha Shaik, Muthu Subash Kavitha",
+      "venue": "IEEE Access",
+      "doi": "N/A",
+      "pdf": "#"
+    },
+    {
+      "year": 2023,
+      "type": "Book",
+      "title_en": "Artificial Intelligence Methods in Marine Biotechnology",
+      "title_ja": "海洋バイオテクノロジーにおける人工知能手法",
+      "authors": "Muthu Subash Kavitha, Aurelia Jackson, V. Manikandarajan, Muralindran Mariappan, Anand Paul, Balu Alagar Venmathi Maran",
+      "venue": "Marine Biotechnology: Applications in Food, Drugs and Energy",
+      "doi": "N/A",
+      "pdf": "#"
+    },
+    {
+      "year": 2023,
+      "type": "Journal",
+      "title_en": "A Foreground Prototype-Based One-Shot Segmentation of Brain Tumors",
+      "title_ja": "脳腫瘍のための前景プロトタイプベースのワンショットセグメンテーション",
+      "authors": "Ananthakrishnan Balasundaram, Muthu Subash Kavitha, Yogarajah Pratheepan, Dhamale Akshat, Maddirala Venkata Kaushik",
+      "venue": "Diagnostics",
+      "doi": "N/A",
+      "pdf": "#"
+    },
+    {
+      "year": 2023,
+      "type": "Journal",
+      "title_en": "Exploring the Capabilities of a Lightweight CNN Model in Accurately Identifying Renal Abnormalities: Cysts, Stones, and Tumors, Using LIME and SHAP",
+      "title_ja": "LIMEとSHAPを用いた腎異常の高精度識別における軽量CNNモデルの可能性",
+      "authors": "Mohan Bhandari, Pratheepan Yogarajah, Muthu Subash Kavitha, Joan Condell",
+      "venue": "Applied Sciences",
+      "doi": "N/A",
+      "pdf": "#"
+    },
+    {
+      "year": 2023,
+      "type": "Journal",
+      "title_en": "Automated Detection and Classification of Oral Squamous Cell Carcinoma Using Deep Neural Networks",
+      "title_ja": "深層ニューラルネットワークを用いた口腔扁平上皮癌の自動検出と分類",
+      "authors": "Balasundaram Ananthakrishnan, Ayesha Shaik, Soham Kumar, S. O. Narendran, Khushi Mattu, Muthu Subash Kavitha",
+      "venue": "Diagnostics",
+      "doi": "N/A",
+      "pdf": "#"
+    },
+    {
+      "year": 2023,
+      "type": "Journal",
+      "title_en": "Attention-effective multiple instance learning on weakly stem cell colony segmentation",
+      "title_ja": "弱教師付き幹細胞コロニーセグメンテーションにおける注意機構付き多重インスタンス学習",
+      "authors": "Novanto Yudistira, Muthu Subash Kavitha, Jeny Rajan, Takio Kurita",
+      "venue": "Intelligent Systems with Applications",
       "doi": "N/A",
       "pdf": "#"
     }
