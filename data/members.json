@@ -70,6 +70,20 @@
       "bio_en": "PhD student affiliated with the Faculty of Engineering, University of Porto (FEUP), conducting special research in intelligent systems and AI.",
       "bio_ja": "ポルト大学工学部（FEUP）所属の博士課程学生で、知的システムとAIに関する特別研究を行っています。",
       "email": "placeholder4@example.edu"
+    },
+    {
+      "id": 6,
+      "category": "Alumni",
+      "name_en": "Jesher Joshua M",
+      "name_ja": "ジェシャー ジョシュア M",
+      "position_en": "Former Internship Student",
+      "position_ja": "元インターン生",
+      "research_topic_en": "Applied AI and intelligent systems development",
+      "research_topic_ja": "応用AIと知的システム開発",
+      "photo": "/images/member-05.jpg",
+      "bio_en": "Former internship participant who contributed to applied AI and intelligent systems development in the laboratory.",
+      "bio_ja": "研究室で応用AIと知的システム開発に貢献した元インターン生です。",
+      "email": "placeholder5@example.edu"
     }
   ]
 }
